@@ -6,8 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-postgres = "0.19.5"
+postgres = "=0.19.4"
 tokio = { version = "1.28.1", features = ["full"] }
-tokio-postgres = { version = "0.7.8" }
-dotenv = { version = '0.15' }
+dotenv = "0.15.0"
 bytes = "1.4.0"
+tokio-postgres = "=0.7.7"
